@@ -1,0 +1,59 @@
+#warm1Id{
+    color: pink;
+    background-color: bisque;
+    margin: 40px;
+    text-align: center;
+}
+#warm2Id{
+    color:orchid; 
+}
+#main-navbar{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+}
+#main-navbar a{
+    color: rebeccapurple!important;
+}
+.firstclass{
+    outline-color: cadetblue;
+    font-size: 60px;
+}
+.secondclass{
+   background-color: aqua;
+    border-left-style: dotted;
+    padding-bottom: 70px;
+    animation: 100px;
+}
+.thirdclass{
+    animation-fill-mode: forwards;
+    column-span: all;
+    text-shadow: 60px;
+    background-image: url("C:\classwork\warmups\day4\la.png");
+}
+.div1{
+    color: darkmagenta;
+    background-color: dodgerblue;
+    margin: 40px;
+}
+.div2{
+    color: aqua;
+    background-color: aqua;
+}
+.div3{
+    color: royalblue;
+    background-color: cadetblue;
+}
+#d1{
+    color: bisque;
+    background-color:darkgray;
+}
+#d2{
+    color: chartreuse;
+    background-color:cornflowerblue;
+}
+#d3{
+    color: gold;
+    background-color:pink;
+}

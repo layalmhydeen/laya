@@ -1,0 +1,23 @@
+.firstClass{
+        color: red;
+    font-size: 40px;
+    border: 30px pink solid;
+     border: 10px red dotted;
+    background-color: bisque;
+    padding: 90px ;
+    margin: 20px 30px 40px 50px;
+    text-align: center;
+    
+}
+.laya {
+     font-size:20px;
+    border: 30px pink solid;
+     border: 10px red dotted;
+    margin: 100px;
+    background-color: bisque;
+    text-align: center;
+}
+
+div{
+    color: aqua;
+}

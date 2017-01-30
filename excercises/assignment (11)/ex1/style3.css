@@ -1,0 +1,17 @@
+#firstId{
+    color: pink;
+    background-color: bisque;
+    margin: 20px 30px 40px 50px;
+    text-align: center;
+}
+#secondId{
+    color:orchid;
+   
+    
+}
+.firstclass{
+    font-size:80px;
+}
+.secondclass{
+   background-color: aqua;
+}

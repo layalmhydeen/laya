@@ -1,0 +1,36 @@
+nav{
+  display: inline-block;
+  margin-top: 20px;
+    margin-bottom: 400px;
+   padding: 15px; 
+  height: 40px;
+  width: 80%;
+    color: white;
+    align-content: center;
+    text-align: center;
+    background-color: black;  
+
+}
+
+footer{
+  display: inline-block;
+    align-content: center;
+    color: white;
+ bottom: 0px;
+  height: 60px;
+  width: 80%;
+    text-align: center;
+  background-color: black;
+}
+header{
+    text-align: center;
+    font-size: 60px;
+}
+article{
+    font-family: sans-serif;
+ margin: 20px;
+}
+img{
+    width:200px;
+    
+}

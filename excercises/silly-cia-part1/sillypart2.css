@@ -1,0 +1,32 @@
+.sillyclass{
+    background-color: greenyellow;
+     
+    }
+H1{
+     font-family: sans-serif;  
+    margin:50px 50px 50px 50px;
+   color: green;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 25px
+}
+h5{
+    text-transform: uppercase;
+}
+a:hover{
+    text-decoration: underline;
+    color: chocolate;
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+img{
+    float:left;
+    width:200px;
+    
+}

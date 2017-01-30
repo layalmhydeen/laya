@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
+  body{
+  margin: 50px;
+   
+}
+
+.div1{
+  display: inline-block;
+  margin: 10px;
+  height: 90px;
+  width: 90%;
+  background-color: pink;  
+
+}
+
+.div2{
+  display: inline-block;
+  margin: 5px;
+  height: 100px;
+  width: 190px;
+  background-color: mediumpurple;
+}
+.div3{
+  display: inline-block;
+  margin: 5px;
+  height: 120px;
+  width: 410px;
+  background-color: royalblue;
+}
+
+.div4{
+   display: inline-block;
+  margin: 10px;
+  height: 100px;
+  width: 80%;
+  background-color: greenyellow;
+}
+
+.div5{
+   display: inline-block;
+  margin: 10px;
+  height: 100px;
+  width: 10%;
+  background-color: red;
+}

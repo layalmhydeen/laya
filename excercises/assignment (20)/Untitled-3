@@ -1,0 +1,106 @@
+ript Function that changes Text Color, Hyperlink Color, and Image
+
+
+up vote
+0
+down vote
+favorite
+enter image description here
+
+Hi,
+
+I need help with a class assignment. We were given an HTML file for a pretend business, "Castaway Vacations LLC". The first step in the assignment is to create a javascript function that changes the Text Color, Hyperlink Color, and Image when a particular link is clicked. So when the "Romantic" link is clicked, for example, the text that reads "Select Mood" will change to red, along with all other text on the page (including the other hyperlinks). Clicking this link will also change the image. One thing that's tricky about the file that our teacher sent is that there isn't a matching CSS file - I created one myself that contains the class colors, but besides that, all the other styles are inline, which I'm not used to. Here is the JSfiddle link to my code:
+
+UPDATE!
+
+I've gotten the code down for changing text color and image, but the hyperlink colors still aren't changing. You can see my attempt at changing them with the function named colorLinks in the updated javascript. Unfortunately, not only does this function not work, it's also causing the previous (good) functions to not work as well. Thanks for your help.
+
+http://jsfiddle.net/HappyHands31/twkm12r2/1/
+
+HTML:
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Castaway Vacations, LLC</title>
+</head>
+<body leftmargin=0 rightmargin=0 bgcolor=#ffcc99 
+text=#993300 link=#993300 vlink=#996633>
+
+<br>
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td width=95% align="right" bgcolor=#ffffff>
+<img src="castaway_logo.jpg">
+<br>
+<font face=arial>Vacations, LLC</font></td>
+<td bgcolor=#ffffff>&nbsp;</td>  
+</tr>
+</table>
+<br><br>
+<div align="center">
+<table width=600>
+<tr>
+<td width=300 valign="top">
+   <font face=arial size=3><b><i>Select Mood...</i></b></font><br><br>
+   <font face=arial>
+   <a id="one" href="#">Romantic</a><br><br>
+   <a id="two" href="#">Adventure</a><br><br>
+   <a id="three" href="#">Relaxation</a><br><br>
+   <a id="four" href="#">Family</a><br><br><br>
+   <br>
+   <a href="#">Request A Brochure...</a>
+   </font>
+</td>
+<td align="center"><img id="original.jpg" src="orig_main.jpg">
+<br>   <i>Your Vacation Awaits!
+
+</tr>
+</center>
+<script src="castaway.js"></script>
+</body>
+</html>
+</DOCTYPE>
+Javascript:
+
+document.getElementById('one').addEventListener
+('click', change_color);
+document.getElementById('two').addEventListener
+('click', change_color2);                                                               
+document.getElementById('three').addEventListener
+('click', change_color3);
+document.getElementById('four').addEventListener
+('click', change_color4);
+
+function change_color(){
+  document.body.style.color = "red";
+  document.getElementById("original.jpg").src = "rom_main.jpg";
+}
+
+function change_color2(){
+  document.body.style.color = "blue";
+  document.getElementById("original.jpg").src = "adv_main.jpg";
+}
+
+function change_color3(){
+  document.body.style.color = "green";
+  document.getElementById("original.jpg").src = "rel_main.jpg";
+}
+
+function change_color4(){
+  document.body.style.color = "orange";
+  document.getElementById("original.jpg").src = "fam_main.jgp";
+}
+
+colorLinks ("#00FF00");
+
+function colorLinks (hex)
+
+var links = document.getElementsByTagName("a");
+for(var i=0;i<links.length;i++)
+{
+      if(links[i].href)
+      {
+          links[i].style.color = "red";  
+      }
+}
