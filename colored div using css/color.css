@@ -1,0 +1,54 @@
+/*
+@media(max-width:800px){
+ .dropdown, .dropdown-menu,.img,.dropdown-menu a,honey-p img,.container-fluid {
+        width: 100%;
+        font-size: 5px;
+        background-color: azure;
+    }
+}
+*/
+
+.o{
+    display: inline-block;
+    width: 48%;
+/*
+ padding: 40px ;
+    margin: 10px;
+*/
+    height: 150px;
+    background-color: darkmagenta;
+    border: 2px solid white;
+}
+.m{
+   display: inline-block;
+    width: 48%;
+/*
+ padding: 40px ;
+    margin: 10px;
+*/
+    height: 150px;
+    background-color: red;
+    border: 2px solid white;
+}
+.l{
+    display: inline-block;
+    width: 48%;
+/*
+ padding: 40px ;
+    margin: 10px;
+*/
+    height: 150px;
+    background-color: yellow;
+    border: 2px solid white;
+}
+.n{
+    display: inline-block;
+    width: 48%;
+/*
+ padding: 40px ;
+    margin: 10px;
+*/
+    height: 150px;
+    background-color: green;
+    border: 2px solid white;
+}
